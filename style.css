@@ -390,8 +390,7 @@ main {
 
 
 
-
-/* media mobail phone screen */
+/* media mobile phone screen */
 @media screen and (max-width: 600px) {
 
     /* header section start */
@@ -530,6 +529,33 @@ main {
     }
 
     /* latest deals section END*/
+
+
+
+    /* Join Section start  */
+    .join-section {
+        height: 250px;
+    }
+
+    .join-section-1 h1 {
+        font-size: 2rem;
+    }
+
+    .join-section-2 form input[type="email"] {
+        width: 150px;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .join-section-2 form input[type="button"] {
+        width: 100px;
+        font-size: 14px;
+    }
+    /* Join Section end  */
+    /* main section end  */
+
+
+
 
 
 }
