@@ -163,7 +163,7 @@ main {
 
 .Plants-section-card .card-div {
     height: 250px;
-    width: 100;
+    width: 100%;
 }
 
 .Plants-section-card .card-div img {
@@ -257,6 +257,41 @@ main {
 
     /* Banner-section End  */
     /* header section End */
+
+    /* main section start */
+    main {
+        max-width: 600px;
+        margin: 10px auto;
+    }
+
+    /* Plants section start */
+    .Plants-section {
+        margin-top: 1rem;
+    }
+
+    .Plants-section-1 p {
+        text-align: justify;
+    }
+
+    .Plants-section-2 {
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Plants-section-card .card-div {
+        height: 200px;
+        width: 100%;
+    }
+
+    .Plants-section-card h1 {
+        font-size: 1rem;
+    }
+
+    .Plants-section-card h2 {
+        font-size: 1;
+    }
+
+    /* Plants section End  */
 
 
 
