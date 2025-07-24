@@ -108,3 +108,61 @@ header {
 
 /* Banner-section End  */
 /* header section End */
+
+
+
+
+
+
+
+
+/* media mobail phone screen */
+@media screen and (max-width: 600px) {
+
+    /* header section start */
+    header {
+        max-width: 600px;
+    }
+
+    /* navbar section start */
+
+    .navbar-section-logo {
+        height: 100px;
+        width: 120px;
+    }
+
+    .navbar-section-div-1 {
+        display: none;
+    }
+
+    .navbar-section-div-2 a {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    /* navbar section End  */
+
+    /* Banner-section start  */
+    .Banner-section {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column-reverse;
+        margin: 3rem 0rem 1rem 0rem;
+    }
+
+    .Banner-section-1 p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .Banner-section-2 {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Banner-section End  */
+    /* header section End */
+
+
+
+}
