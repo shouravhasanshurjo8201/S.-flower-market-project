@@ -202,6 +202,58 @@ main {
 
 /* Plants section End  */
 
+/* flower lover section start  */
+.flower-lover-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin: 1.5rem;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.flower-lover-section .trusted-badge {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -50px;
+    left: 360px;
+}
+
+.flower-lover-section .trusted-badge img {
+    width: 100%;
+    height: 100%;
+}
+
+.flower-lover-section-1 {
+    width: 100%;
+    height: 500px;
+}
+
+.flower-lover-section-1 img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellowgreen;
+    border-radius: 8px;
+}
+
+.flower-lover-section-2 h1 {
+    color: #790a0a;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+}
+
+.flower-lover-section-2 ul li {
+    color: #636262;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    margin-top: 1.5rem;
+}
+/* flower lover section End  */
 
 
 /* media mobail phone screen */
