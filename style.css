@@ -1,35 +1,43 @@
 /* header section start */
-header{
+header {
     max-width: 1200px;
     margin: 10px auto;
 }
+
 /* navbar section start */
-.navbar-section{
+.navbar-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
-.navbar-section-logo{
-    height: 100px;
-    width: 130px;
+
+.navbar-section-logo {
+    height: 120px;
+    width: 150px;
 }
-.navbar-section-logo img{
+
+.navbar-section-logo img {
     height: 100%;
     width: 100%;
 }
-.navbar-section-nav{
+
+.navbar-section-nav {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-.navbar-section-div-1 ul{
+
+.navbar-section-div-1 ul {
     display: flex;
     gap: 2rem;
 }
-.navbar-section-div-1 ul li{
+
+.navbar-section-div-1 ul li {
     list-style: none;
 }
-.navbar-section-div-1 ul a{
+
+.navbar-section-div-1 ul a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 400;
@@ -37,19 +45,66 @@ header{
     font-family: "Inter", sans-serif;
 }
 
-.navbar-section-div-1 ul .Home{
+.navbar-section-div-1 ul .Home {
     font-size: 1rem;
     font-weight: 700;
     color: #252432;
 }
-.navbar-section-div-2 a{
+
+.navbar-section-div-2 a {
     text-decoration: none;
 }
-.navbar-section-div-2 a{
+
+.navbar-section-div-2 a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
     color: #000000;
     font-family: "Inter", sans-serif;
 }
+
 /* navbar section End  */
+
+/* Banner-section start  */
+.Banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0rem 1rem 0rem;
+}
+
+.Banner-section-1 h1 {
+    color: #cf5611;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    line-height: 20px;
+}
+
+.Banner-section-1 span {
+    color: #0fb01f;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    line-height: 20px;
+}
+
+.Banner-section-1 p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.Banner-section-2 {
+    width: 100%;
+    height: 400px;
+}
+
+.Banner-section-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Banner-section End  */
+/* header section End */
