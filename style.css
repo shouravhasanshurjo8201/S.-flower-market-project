@@ -256,6 +256,98 @@ main {
 
 /* flower lover section End  */
 
+/* latest deals section start*/
+.latest-deals-section {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 1rem;
+}
+
+.latest-deals-section-1 {
+    text-align: center;
+    padding: 4rem;
+}
+
+.latest-deals-section-1 h1 {
+    color: #1086cf;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+}
+
+.latest-deals-section-1 span {
+    color: #1d6d5c;
+}
+
+.latest-deals-section-1 p {
+    color: #636262;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    margin-top: 1.5rem;
+}
+
+.latest-deals-section-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+
+.latest-deals-section-div-1,
+.latest-deals-section-div-2,
+.latest-deals-section-div-3 {
+    background-image: url("images/deal-bloom.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 100px rgb(0, 0, 0);
+    box-shadow: inset -5px -5px 500px rgb(0, 0, 0);
+}
+
+.latest-deals-section-div-2 {
+    background-image: url("images/deal-zabo.png");
+    grid-row: span 2;
+    grid-column: span 2;
+    height: 400px;
+}
+
+.latest-deals-section-div-3 {
+    background-image: url("images/deal-ana.png");
+}
+
+.latest-deals-section-2 h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+}
+
+.latest-deals-section-2 button {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Noto Serif", serif;
+    background-color: #e736c6;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px 18px;
+}
+
+/* latest deals section END*/
+
+
+
+
+
+
 
 /* media mobail phone screen */
 @media screen and (max-width: 600px) {
@@ -371,6 +463,8 @@ main {
     }
 
     /* flower lover section End  */
+
+
 
 
 }
