@@ -364,6 +364,7 @@ header {
     padding: 8px 15px;
     border-radius: 8px 18px;
 }
+
 .latest-deals-section-2 button:hover {
     color: #51f851;
     background-color: #58517c;
@@ -487,7 +488,6 @@ header {
     }
 
     /* navbar section start */
-
     .navbar-section-logo {
         height: 100px;
         width: 120px;
@@ -580,7 +580,6 @@ header {
         display: none;
     }
 
-
     .flower-lover-section-2 h1 {
         color: #790a0a;
         font-size: 2rem;
@@ -622,8 +621,6 @@ header {
 
     /* latest deals section END*/
 
-
-
     /* Join Section start  */
     .join-section {
         height: 250px;
@@ -647,7 +644,6 @@ header {
     /* Join Section end  */
     /* main section end  */
 
-
     /* footer section start  */
     .footer-section {
         max-width: 600px;
@@ -667,22 +663,18 @@ header {
         font-size: 1.3rem;
         font-weight: 600;
         margin-left: -2rem;
-
     }
 
     .footer-section-3 {
         width: 100%;
         margin-top: 1rem;
         margin-left: -2rem;
-
     }
 
     .footer-section-3 img {
         height: 30px;
         width: 30px;
-
     }
 
     /* footer section end  */
-
 }
