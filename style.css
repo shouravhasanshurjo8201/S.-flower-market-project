@@ -447,7 +447,6 @@ main {
 
 /* footer section end  */
 
-
 /* media mobile phone screen */
 @media screen and (max-width: 600px) {
 
@@ -614,7 +613,41 @@ main {
     /* main section end  */
 
 
+    /* footer section start  */
+    .footer-section {
+        max-width: 600px;
+        flex-direction: column;
+    }
 
+    .footer-section-1 {
+        width: 100%;
+    }
 
+    .footer-section-2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-section-2 a {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: -2rem;
+
+    }
+
+    .footer-section-3 {
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: -2rem;
+
+    }
+
+    .footer-section-3 img {
+        height: 30px;
+        width: 30px;
+
+    }
+
+    /* footer section end  */
 
 }
