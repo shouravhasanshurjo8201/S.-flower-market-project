@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .navbar-section-logo {
@@ -45,14 +45,20 @@ header {
     font-family: "Inter", sans-serif;
 }
 
+.navbar-section-div-1 ul a:hover {
+    color: hwb(121 16% 0%);
+    text-decoration: underline;
+}
+
 .navbar-section-div-1 ul .Home {
     font-size: 1rem;
     font-weight: 700;
     color: #252432;
 }
 
-.navbar-section-div-2 a {
-    text-decoration: none;
+.navbar-section-div-1 ul .Home:hover {
+    color: hsl(140, 91%, 51%);
+    text-decoration: underline;
 }
 
 .navbar-section-div-2 a {
@@ -63,6 +69,11 @@ header {
     font-family: "Inter", sans-serif;
 }
 
+.navbar-section-div-2 a:hover {
+    color: #4bff33;
+    text-decoration:underline ;
+}
+
 /* navbar section End  */
 
 /* Banner-section start  */
@@ -70,7 +81,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5rem 0rem 1rem 0rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 .Banner-section-1 h1 {
@@ -79,6 +91,7 @@ header {
     font-weight: 800;
     font-family: "Noto Serif", serif;
     line-height: 20px;
+    padding-left: 1rem;
 }
 
 .Banner-section-1 span {
@@ -94,6 +107,7 @@ header {
     font-size: 1.2rem;
     font-weight: 400;
     font-family: "Inter", sans-serif;
+    padding-left: 1rem;
 }
 
 .Banner-section-2 {
@@ -104,21 +118,18 @@ header {
 .Banner-section-2 img {
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 /* Banner-section End  */
 /* header section End */
 
 /* main section start */
-main {
-    max-width: 1200px;
-    margin: 10px auto;
-}
-
 /* Plants section start */
 .Plants-section {
     margin-top: 5rem;
+    max-width: 1200px;
+    margin: 10px auto;
 }
 
 .Plants-section-1 {
@@ -192,39 +203,32 @@ main {
     color: #ffffff;
     background-color: #E95A08;
     font-size: 0.8rem;
-    font-weight: 500;
-    height: 2.5rem;
+    font-weight: 700;
+    height: 2.8rem;
     border: none;
     border-radius: 0px 0px 0.5rem 0.5rem;
     font-family: "Inter", serif;
     width: 100%;
 }
 
+.Plants-section-card button:hover {
+    color: #24fe32;
+    background-color: #4b05bd;
+}
+
 /* Plants section End  */
 
 /* flower lover section start  */
 .flower-lover-section {
+    max-width: 1200px;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
-    gap: 5rem;
+    gap: 4rem;
     align-items: center;
-    margin: 1.5rem;
     margin-top: 5rem;
-    padding: 1.5rem;
+    padding: 1rem;
     position: relative;
-}
-
-.flower-lover-section .trusted-badge {
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    top: -50px;
-    left: 360px;
-}
-
-.flower-lover-section .trusted-badge img {
-    width: 100%;
-    height: 100%;
 }
 
 .flower-lover-section-1 {
@@ -237,6 +241,19 @@ main {
     height: 100%;
     border: 1px solid yellowgreen;
     border-radius: 8px;
+}
+
+.flower-lover-section .trusted-badge {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -80px;
+    left: 35%;
+}
+
+.flower-lover-section .trusted-badge img {
+    width: 100%;
+    height: 100%;
 }
 
 .flower-lover-section-2 h1 {
@@ -260,7 +277,7 @@ main {
 .latest-deals-section {
     max-width: 1200px;
     margin: 10px auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .latest-deals-section-1 {
@@ -270,9 +287,10 @@ main {
 
 .latest-deals-section-1 h1 {
     color: #1086cf;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 800;
     font-family: "Noto Serif", serif;
+    margin-top: 10px;
 }
 
 .latest-deals-section-1 span {
@@ -284,7 +302,7 @@ main {
     font-size: 1.2rem;
     font-weight: 600;
     font-family: "Inter", serif;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .latest-deals-section-2 {
@@ -308,12 +326,11 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: inset 5px 5px 100px rgb(0, 0, 0);
-    box-shadow: inset -5px -5px 500px rgb(0, 0, 0);
+    box-shadow: inset 10px 10px 300px rgb(0, 0, 0);
 }
 
 .latest-deals-section-div-2 {
-    background-image: url("images/deal-zabo.png");
+    background-image: url("images/deal-zab.png");
     grid-row: span 2;
     grid-column: span 2;
     height: 400px;
@@ -330,16 +347,27 @@ main {
     font-family: "Noto Serif", serif;
 }
 
+.latest-deals-section-div-2 h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+}
+
 .latest-deals-section-2 button {
     color: #ffffff;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Noto Serif", serif;
-    background-color: #e736c6;
+    background-color: #855f7e;
     border: none;
     padding: 8px 15px;
     border-radius: 8px 18px;
 }
+.latest-deals-section-2 button:hover {
+    color: #51f851;
+    background-color: #58517c;
+} 
 
 /* latest deals section END*/
 
@@ -435,6 +463,9 @@ main {
     font-weight: 500;
     font-family: "Inter", serif;
 }
+.footer-section-2 a:hover {
+    text-decoration:underline ;
+}
 
 .footer-section-3 a {
     margin-left: 1.5rem;
@@ -526,6 +557,7 @@ main {
         width: 100%;
     }
 
+
     .Plants-section-card h1 {
         font-size: 1rem;
     }
@@ -562,7 +594,6 @@ main {
 
     /* flower lover section End  */
 
-
     /* latest deals section start*/
     .latest-deals-section {
         max-width: 600px;
@@ -585,6 +616,10 @@ main {
         height: 200px;
     }
 
+    .latest-deals-section-2 h1 {
+        font-size: 1rem;
+    }
+
     /* latest deals section END*/
 
 
@@ -595,18 +630,18 @@ main {
     }
 
     .join-section-1 h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .join-section-2 form input[type="email"] {
-        width: 150px;
-        font-size: 14px;
+        width: 130px;
+        font-size: 12px;
         padding: 10px 15px;
     }
 
     .join-section-2 form input[type="button"] {
-        width: 100px;
-        font-size: 14px;
+        width: 90px;
+        font-size: 12px;
     }
 
     /* Join Section end  */
